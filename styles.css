@@ -11,7 +11,6 @@ body {
     display: grid;
     place-items: center;
     background-color: #4B5171;
-    position: fixed;
 }
 .calculator_container{
     width: 70%;
@@ -21,14 +20,15 @@ body {
     -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
-    position: fixed;
     padding: 14px;
+    overflow: hidden;
 }
 .money_img{
-    width: 15%;
+    width: 12%;
     position: absolute;
-    right: 15%;
-    top: 7%;
+    right: 25%;
+    top: 19%;
+    
 }
 .calculator_container h1{
     margin: 34px 34px 34px 54px;
