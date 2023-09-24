@@ -92,6 +92,9 @@ box-shadow: 16px 14px 26px -14px rgba(112,112,112,1);
 }
 
 @media (max-width: 630px){
+    body{
+        position: fixed;
+    }
     #main_container{
         width: 100%;
         height: 100vh;
@@ -99,7 +102,7 @@ box-shadow: 16px 14px 26px -14px rgba(112,112,112,1);
     }
     .calculator_container{
         width: 70%;
-        height: 70%;
+        height: 80%;
         margin: 5% auto;
     }
     .result_container {
